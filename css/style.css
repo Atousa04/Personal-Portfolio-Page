@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 250px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+header h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about {
+    box-sizing: border-box;
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #e9e9e9;
+    padding: 10px;
+}
+
+.about p {
+    margin-top: 25px;
+}
+
+.work {
+    box-sizing: border-box;
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #e9e9e9;
+    padding: 10px;
+    
+}
+
+.project {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border: 1px solid darkgray;
+    margin: 10px;
+    text-align: center;
+}
+
+.project p {
+    margin-top: 45%;
+}
+
+footer {
+    box-sizing: border-box;
+    height: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+footer a:hover {
+    color: lightgray;
+}
+
